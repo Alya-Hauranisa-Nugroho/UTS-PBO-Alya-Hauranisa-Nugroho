@@ -24,8 +24,9 @@ public class InputValidator {
             if (pilihan >= min && pilihan <= max) {
                 return pilihan;
             }
-
+            else {
             Pesan.tampilkanPesan("Pilihannya cuma dari " + min + " sampai " + max + " yaa ^__^");
+            }
         }
     }
 
